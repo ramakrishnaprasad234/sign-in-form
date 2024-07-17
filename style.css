@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+.container .empty{
+    background-color: black;
+    padding: 70px 30px;
+    margin: 0 20px;
+}
+.main{
+    display:flex;
+    
+    
+}
+.main .right{
+    float: left;
+    width: 45%;
+    background-color: blueviolet;
+    margin: 0px 50px;
+    padding: 50px 100px;
+}
+.main .right h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 20px;
+    color: #af0a0a;
+}
+.main .right p{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #fff;
+}
+.main .right .image .btn{
+    padding: 15px 7px;
+    margin: 20px;
+    font-size: 15px;
+}
+.image .btn{
+    height: 40px;
+    width: 100px;
+    background-color: brown;
+    color: #fff;
+    border-radius: 5px;
+}
+.main .right .img img{
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin: 20px 20px;
+    float: right;
+}
+.main .right .image .btns {
+    height: 40px;
+    width: 100px;
+    margin-top: 200px;
+    right: 30px;
+    border-radius: 10px;
+}
+.main .right .image .btns i{
+    font-size: 20px;
+}
+.main2{
+    float: right;
+    width: 45%;
+}
+.main .left .left1 h1{
+   font-size: 30px;
+   text-align: center;
+   margin-top: 30px;
+}
+.main .left .left1 .input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.main .left .left1 .input i{
+    font-size: 20px;
+
+}
+.main .left .left1 .input input{
+    margin: 10px;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.main .left .left1 .input .btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.main .left h3{
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+.main .left .social{
+   text-align: center;
+   margin-top: 20px;
+   font-size: 30px;
+   padding: 10px 10px;
+   color: brown;
+}
+
+.container .empty1{
+    background-color: black;
+    padding: 60px 10px;
+    margin: 0 20px;
+    margin-top: 70px;
+}
